@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+files.csv
+classifiers.csv
 
 # C extensions
 *.so

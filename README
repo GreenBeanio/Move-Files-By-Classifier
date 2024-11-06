@@ -1,0 +1,35 @@
+# Move Files By Classifier
+
+A program to sort files by a classifier in a csv file.
+
+This is intended to be used alongside the results from the project ["Match Titles to Files"](https://github.com/GreenBeanio/Match-Titles-to-Files).
+
+## Needed Files
+
+- files.csv
+  - A csv file with 2 columns.
+    - File: File/Directory name to sort.
+    - Classifier: The classifier you're using to sort the files.
+- classifiers.csv
+  - A csv file with 2 columns.
+    - Classifier: The classifiers you're using to sort the files into directories.
+    - Directory: The directory that you want to sort the files using that classifier into.
+- files
+  - A directory filled with the files/directories that you want to sort.
+
+### Linux
+
+#### Initial Run
+
+- cd /your/folder
+- python3 -m venv env
+- source env/bin/activate
+- pip install -r requirements.txt
+- python main.py
+
+### Technology Used
+
+| Package | Version | License | Link | Usage |
+| --- | --- | --- | --- | --- |
+| Python | 3.9.13 | Python Software Foundation License | [Link](https://www.python.org/) | Main programming language for the project |
+| Pandas | 2.2.2 | BSD-3-Clause license | [Link](https://pypi.org/project/pandas/) | Dataframes and other data science data structures |
